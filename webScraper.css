@@ -1,0 +1,50 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    font-weight: 100;
+
+}
+
+body {
+    background-color: rgba(226, 226, 226, 0.32);
+}
+
+h1 {
+    font-size: 75px;
+    color: #EAD7D8;
+}
+
+h3 {
+    font-size: 50px;
+    color: #EAD7D8;
+}
+
+button, input {
+    font-size: 24px;
+    height: auto;
+    width: auto;
+    margin: 5px;
+    border: none;
+}
+button {
+    background: none;
+    box-shadow: 1px 1px 5px grey;
+}
+input {
+    box-shadow: 2px 2px 5px grey;
+    padding: 15px 15px 15px 60px;
+}
+
+.deleteButton {
+    border: none;
+    background: none;
+}
+
+li {
+    font-size: 36px;
+}
