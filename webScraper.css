@@ -11,40 +11,50 @@
 }
 
 body {
-    background-color: rgba(226, 226, 226, 0.32);
+    background-color: #E5B22C;
 }
-
+.borders {
+    align-content: center;
+    margin: 20px auto;
+    width: 600px;
+    height: 700px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px grey;
+    background-color: antiquewhite;
+    padding-top: 10%;
+    
+}
 h1 {
-    font-size: 75px;
-    color: #EAD7D8;
+    margin-left: 15%;
+    font-size:40px;
+    color: black;
+    padding: 5px;
 }
 
-h3 {
-    font-size: 50px;
-    color: #EAD7D8;
-}
-
-button, input {
-    font-size: 24px;
-    height: auto;
-    width: auto;
-    margin: 5px;
-    border: none;
+#buttons {
+    margin-left: 35%;
+   
 }
 button {
-    background: none;
+    margin-top: 17px;
+    background: #1D809D;
     box-shadow: 1px 1px 5px grey;
-}
-input {
-    box-shadow: 2px 2px 5px grey;
-    padding: 15px 15px 15px 60px;
-}
-
-.deleteButton {
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
     border: none;
-    background: none;
 }
 
-li {
-    font-size: 36px;
+#name {
+    margin-left: 27%;
+    padding: 35px;
+    font-size: 35px;
+    font-weight: 500;
+    
+
 }
