@@ -41,16 +41,13 @@ h1 {
 }
 button {
     
-    margin-top: 17px;
+    margin: 10px;
     background: #1D809D;
     box-shadow: 1px 1px 5px grey;
     color: white;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 10px;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 37px;
     font-weight: 500;
     border: none;
 }
